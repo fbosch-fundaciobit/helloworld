@@ -33,12 +33,13 @@ public class AppTest
      */
     public void testApp()
     {
-        
-        int v = new Calculadora().suma(2,3);
+    	
+    	Calculadora2 calculadora2 = new Calculadora2();
+        int v = calculadora2.suma(2,3);
         System.out.println(v);
         assertEquals(5, v);
         
-        int j = new Calculadora().suma(7,2);
+        int j = calculadora2.resta(7,2);
         System.out.println(j);
         assertEquals(5, j);
     }
