@@ -11,9 +11,4 @@ public class Calculadora2 extends Calculadora{
     	return a-b;
     }
 
-    public int multiplica(int a, int b){
-        return a*b;
-    }
-
-
 }
