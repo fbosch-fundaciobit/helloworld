@@ -19,4 +19,8 @@ public class Calculadora2 extends Calculadora{
         return a + b;
     }
 
+    public int multuply( int a, int b){
+        return a * b;
+    }
+
 }
