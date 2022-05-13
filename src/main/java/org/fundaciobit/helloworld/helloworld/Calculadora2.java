@@ -15,4 +15,8 @@ public class Calculadora2 extends Calculadora{
         return a * b;
     }
 
+    public int suma(int a, int b){
+        return a + b;
+    }
+
 }
